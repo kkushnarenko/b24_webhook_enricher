@@ -44,7 +44,7 @@ BITRIX_USER_FIELD=UF_CRM_УИД
 CURRENCY_API_URL=https://open.er-api.com/v6/latest/USD
 ```
 
-##Запуск приложения
+## Запуск приложения
 Для запуска локального сервера выполните команду в терминале:
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
@@ -78,7 +78,7 @@ pytest -v
 ```text
 event=ONCRMDEALADD&data[FIELDS][ID]=14**Эквивалент в формате JSON (для наглядности структуры):**
 ```
-### 2.
+### 2. Тело запроса в JSON
 ```json
 {
   "event": "ONCRMDEALADD",
